@@ -1,0 +1,435 @@
+/*------ TITULO -----*/
+
+:root {
+    --borda: #e9a949;
+    --largura_borda: 3px;
+    /* --cor_fundo: rgba(0, 0, 0, 0.644); */
+    --cor_fundo: linear-gradient(135deg, #131313b6, #212b539c, #5a3e0f94, #131313b6);
+}
+
+#titulo_1 {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(141, 141, 141);
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+}
+
+#titulo_2 {
+    /* height: 50px;
+    width: 660px; */
+    text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(70, 136, 3);
+    background-color: darkgray;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 9.5%;
+}
+
+#titulo_2 b {
+    padding: 15px;
+    font-family: "Unispace";
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(4, 1, 139);
+}
+
+
+/*------ CORPO -----*/
+
+body {
+    background-color: rgb(126, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#corpo {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 25px;
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(90deg, #8a8280, #3f53ad, #4396ce, #8a8280);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/*------ IMAGENS -----*/
+
+#imagens {
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 25px;
+}
+
+#imagens img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding-top: 0px;
+    border-radius: 25px;
+}
+
+#inter {
+    height: 100vh;
+    width: 100%;
+    border-radius: 25px;
+    background-image: url("https://cdn.lifehack.org/wp-content/uploads/2014/12/Interstellar-2014-Poster-Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/*------ BOTÃO -----*/
+
+#botão .btn_inter {
+    font-family: "Impact";
+    font-style: italic;
+    color: darkblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: rgb(5, 128, 243);
+    border-width: var(--largura_borda);
+}
+
+#botão {
+    margin-left: 25%;
+}
+
+#botão .btn_inter:hover {
+    background-color: rgba(112, 99, 99, 0.61);
+    color: firebrick;
+}
+
+
+/*------ TEXTO -----*/
+
+#inter_txt_1 {
+    position: absolute;
+    right: 315px;
+    top: 10px;
+    width: 300px;
+    height: 280px;
+    background-color: var(--cor_fundo);
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_2 {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 300px;
+    height: 280px;
+    background-color: var(--cor_fundo);
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_3 {
+    position: absolute;
+    right: 315px;
+    top: 300px;
+    width: 300px;
+    height: 200px;
+    background-color: var(--cor_fundo);
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_4 {
+    position: absolute;
+    right: 5px;
+    top: 300px;
+    width: 300px;
+    height: 200px;
+    background-color: var(--cor_fundo);
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_5 {
+    position: absolute;
+    right: 315px;
+    top: 510px;
+    width: 300px;
+    height: 240px;
+    background-color: var(--cor_fundo);
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_6 {
+    position: absolute;
+    right: 5px;
+    top: 510px;
+    width: 300px;
+    height: 240px;
+    background-color: var(--cor_fundo);
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_7 {
+    position: absolute;
+    right: 5px;
+    top: 760px;
+    width: 610px;
+    height: 130px;
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_8 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 713px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    /* background-color: rgba(0, 0, 0, 0.89); */
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_9 {
+    position: absolute;
+    left: 5px;
+    top: 760px;
+    width: 713px;
+    height: 130px;
+    /* background-color: var(--cor_fundo); */
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+}
+
+#inter_txt_10 {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+    width: 713px;
+    height: 680px;
+    background: var(--cor_fundo);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    z-index: 0;
+    border-radius: 25px;
+    border-color: var(--borda);
+    border-width: var(--largura_borda);
+    border-style: solid;
+}
+
+#inter_txt_8 h1 {
+    margin-top: 12px;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Castellar';
+}
+
+#inter_txt_7 p {
+    text-align: center;
+}
+
+.inter_background {
+    background-color: var(--cor_fundo);
+}
+
+h1 {
+    font-style: bold;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Castellar';
+}
+
+p {
+    font-style: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+    font-family: 'High Tower Text';
+}
+
+#inter_txt_9 table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -45%;
+    transform: translate(-50%, -50%);
+}
+
+#inter_txt_9 table td {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+/*------ IMAGENS -----*/
+
+#img0 {
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 703px;
+    height: 670px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 25px;
+}
+
+#img1,
+#img2,
+#img3,
+#img4 {
+    width: 351px;
+    height: 333px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 25px;
+}
+
+#img1 {
+    position: absolute;
+}
+
+#img2 {
+    position: absolute;
+    left: 50%;
+}
+
+#img3 {
+    position: absolute;
+    top: 50%;
+}
+
+#img4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.imagem-1 img {
+    position: absolute;
+    background-color: #4396ce;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: all .3s ease-in-out;
+}
+
+.imagem-1 img:hover {
+    position: absolute;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+span img {
+    border-radius: 5px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+#btn-pag {
+    margin-left: 15px;
+    margin-top: 50%;
+    transform: rotate(-180deg);
+    z-index: 5;
+}
+
+#btn-pag1 {
+    object-position: right;
+    margin-right: 15%;
+    margin-left: 85%;
+    margin-top: 50%;
+    z-index: 5;
+}
